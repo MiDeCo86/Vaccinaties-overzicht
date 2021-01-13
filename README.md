@@ -9,6 +9,7 @@ De visualisatie is gebaseerd op de data van https://www.laatjevaccineren.be/vacc
 
 `
 pip install requirements.txt  
+
 streamlit run vaccinaties.py
 `
 
