@@ -20,7 +20,7 @@ welcome_text
 
 df = pd.read_excel(
     "https://github.com/MiDeCo86/Vaccinaties-overzicht/blob/main/data/Vaccinaties.xlsx?raw=true",
-    sheet_name="data"
+    sheet_name="data", engine="openpyxl"
 )
 
 df2 = df.copy()
