@@ -19,7 +19,7 @@ Onderstaande kaart toont de locatie van de WZC's in Vlaanderen die in week """ +
 welcome_text
 
 df = pd.read_excel(
-    "https://github.com/MiDeCo86/Vaccinaties-overzicht/blob/main/Vaccinaties.xlsx?raw=true",
+    "https://github.com/MiDeCo86/Vaccinaties-overzicht/blob/main/data/Vaccinaties.xlsx?raw=true",
     sheet_name="data"
 )
 
